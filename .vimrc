@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'davidhalter/jedi-vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 map <silent> <C-n> :NERDTreeToggle<CR>
@@ -30,6 +31,7 @@ set clipboard=unnamedplus
 "set hi ColorColumn ctermbg=lightblue guibg=lightblue
 set number
 set spell
+set mouse=a
 
 colorscheme gruvbox
 set background=dark    " Setting dark mode
