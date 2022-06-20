@@ -1,6 +1,7 @@
 ~\AppData\Local\Programs\oh-my-posh\bin\oh-my-posh.exe --init --shell pwsh --config ~\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
+Import-Module posh-git
 
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
